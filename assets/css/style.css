@@ -1,3 +1,28 @@
+body {
+    background: #7297d6;
+}
 img {
     float: left;
+}
+.center {
+    margin: 0 auto;
+}
+.row {
+    margin-top: 10px;
+}
+#randomNumber, #score {
+    font-weight: 400;
+    font-size: 32px;
+}
+.directions {
+    background: #eca9a9;
+}
+.randomNumber, .scores {
+    background: #89badf;
+}
+.gems {
+    background: #d399e7;
+}
+.total {
+    background: #d1e3bc;
 }
