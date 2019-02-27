@@ -41,7 +41,6 @@ $(document).on("click", "img", function () {
         //...we add 1 to their total wins
         wins++;
         $("#wins").text(wins);
-        $("#score").text(total);
         //...alert the winner
         alert("Congratulations! You WON!")
         //...and reset the game
@@ -52,7 +51,6 @@ $(document).on("click", "img", function () {
         //we add 1 to their total losses
         losses++;
         $("#losses").text(losses);
-        $("#score").text(total);
         //...alert the winner
         alert("Sorry! You LOST! Better luck next time!")
         //...and reset the game
@@ -61,7 +59,6 @@ $(document).on("click", "img", function () {
 });
 
 function reset() {
-    
     total = 0;
     $("#score").text(total);
     random = Math.floor(Math.random() * 102) + 19;
@@ -71,10 +68,6 @@ function reset() {
 
 }
 
-
-
-//issues: gem values dont reset after a game is won/lost
-//last score doesnt render
 
 
 
